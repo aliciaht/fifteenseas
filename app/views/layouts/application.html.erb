@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fifteenseas</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <link type="text/css", src="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<%= yield %>
+
+
+<script type="text/javascript", src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html{
+	height:100%;
+	background-color: #FFFCF5;
+
+}
+
+.navbar {
+	width:20%;
+	height: 100%;
+
+	background-image: url('Paper-4.png');
+	float:left;
+	opacity: 0.8;
+}
+
+.colorbar{
+	width:15px;
+	height:100%;
+	background-image: url('border.png');
+	float:left;
+}
+
+#navlogo{
+	height: 200px;
+	background-color: none;
+}
+
+#navcontent{
+	width:90%;
+	margin:auto;
+	background-color: none;
+	text-align: center;
+	color: #474242;
+	opacity: 1.0;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+
+}
+
+#navcontent h3{
+font-family: 'Bilbo Swash Caps', cursive;
+}
+
+#navcontent p{
+
+
+	line-height: 1.5em;
+}
+
+.contentarea{
+	background-image: url('worldmap.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+	height:100%;
+
+}
+
+.contentblurb{
+	width:80%;
+	font-size: 1.5em;
+	text-align: center;
+	margin:auto;
+font-family: 'Bilbo Swash Caps', cursive;
+	padding-top: 45%;
+
+
+}
+
